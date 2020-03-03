@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+    crawler:
+        image: tekook/crawl-prnt.sc
+        build: 
+            dockerfile: ./Dockerfile
+            context: .
+        volumes:
+            - .:/app:delegated
