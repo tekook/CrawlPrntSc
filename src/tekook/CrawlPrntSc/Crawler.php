@@ -25,7 +25,8 @@ class Crawler
     /**
      * RegEx to grab image url
      */
-    const REG = '/\<meta property=\"og\:image\" content=\"([^\"]+)\"\/\>/mi';
+    const REG = /** @lang text */
+        '/\<meta property=\"og\:image\" content=\"([^\"]+)\"\/\>/mi';
     /**
      *  UserAgent to present to WebPage.
      *
