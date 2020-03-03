@@ -12,7 +12,7 @@ class Crawler
         "//st.prntscr.com/2020/02/10/0334/img/0_173a7b_211be8ff.png",
     ];
 
-    public function execute($max = 10)
+    public function execute(int $max = 10) : void
     {
         $client = new Client([
             'base_uri' => self::BASE,
