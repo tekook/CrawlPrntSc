@@ -1,9 +1,10 @@
 {
-  "name": "tekook/crawl-prnt.sc",
+  "name": "tekook/crawlprntsc",
   "type": "project",
   "license": "MIT",
   "description": "-",
   "require": {
+    "php": "^7.4",
     "guzzlehttp/guzzle": "^6.5",
     "illuminate/support": "^7.0"
   },
