@@ -5,6 +5,11 @@ namespace Tekook\CrawlPrntSc;
 use GuzzleHttp\Client;
 use Illuminate\Support\Str;
 
+/**
+ * Class Crawler
+ *
+ * @package Tekook\CrawlPrntSc
+ */
 class Crawler
 {
     /**
@@ -20,7 +25,7 @@ class Crawler
     /**
      * RegEx to grab image url
      */
-    const REG = '/\<meta property=\"og\:image\" content="([^"]+)\"\/\>/mi';
+    const REG = '/\<meta property=\"og\:image\" content=\"([^\"]+)\"\/\>/mi';
     /**
      *  UserAgent to present to WebPage.
      *
